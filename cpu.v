@@ -30,12 +30,6 @@ module cpu(
     output dmem_wen 
     );
     
-    reg [31:0] pc;
-    assign pc = imem_insn;
-    always @ (posedge clk)begin
-        pc = pc + 4
-    end
-    
     //Fetch
     //Decode
     //Execute
