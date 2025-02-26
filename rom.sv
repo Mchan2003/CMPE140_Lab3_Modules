@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module rom #(addr_width = 32, data_width = 32, string init_file = "dummy.dat" )
+module rom #(addr_width = 32, data_width = 32, string init_file = "addi_hazards-1.dat" )
 (
 input [addr_width-1:0]addr,
 output [data_width-1:0]data
